@@ -18,6 +18,10 @@
   color: white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .movies{
   display: flex;
   flex-wrap: wrap;
@@ -47,5 +51,25 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .mcard{
+    max-width: 33%;
+  }
+}
+
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .mcard{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .mcard{
+    max-width: 100%;
+    margin: auto;
   }
 }
