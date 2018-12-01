@@ -18,21 +18,24 @@
   color: white;
 }
 
-.movie{
+.movies{
   display: flex;
   flex-wrap: wrap;
-  padding-left: 50px;
+  flex-direction: row;
+  
 }
 
 .mcard{
-  padding-left: 30px;
-  align-items: center;
+    padding: 5px 35px 10px 35px;
+    max-width: 25%;
+    
 }
 
-.movie img{
-  width: 250px!important;
-  height: 350px!important;
+.animation{
+  margin: 10px auto;
 }
+
+
 
 .App-link {
   color: #61dafb;
